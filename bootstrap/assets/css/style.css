@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.barra{
+    background-color: #28a745;
+}
+.text{
+    color: #28a745; 
+}
+.text_full{
+    color:#212529;
+}
+.botton{
+    background-color: #fff;
+}
+.font300{
+    font-family: 'Roboto';
+    /* font-weight: Roboto Light (300); */
+}
+.font500{
+    font-family: 'Roboto';
+    font-weight: Roboto Medium (500);
+}
+.max-withd{
+    max-width: 1280px;
+}
+.btn-width{
+    width: 6rem;
+
+}

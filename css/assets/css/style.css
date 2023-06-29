@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Manrope', sans-serif;
+    background-image: url(../img/principal.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   
+}
+.header{
+    width: 105%;
+    height: 200px;
+    margin: 0;
+    background-image: url(../img/principal.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.header h1{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 80px;
+}
+.header p{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 60px;
+}
+.section{
+    margin-bottom: 50px;
+}
+.div{
+    width: 75%;
+    height: 80%;
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-beween;
+    align-items: center;
+    
+}
+.letras{
+    align-items: center;
+    flex: 1;
+    text-align: left;
+    /* margin-right: 300px; */
+    color: white;
+    font-size: 20px;
+    
+} 
+.img{
+    display: flex;
+    justify-content: left;   
+    margin-top: 100px;
+}
+.img img{
+    max-height: 50%;
+    max-width: 50%;
+    border-radius: 10%;
+}
+
+.footer{
+    border: 1;
+    width: 100%;
+    /*position: fixed;*/
+    bottom: 0;
+    padding: 10px;
+    border-top: 1px solid wheat;
+}
+.footer p{
+    text-align: center;  
+    color: white;
+    font-size: 12px;   
+}

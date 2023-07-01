@@ -28,6 +28,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+.text_color{
+  color: #73A9AD;
+}
 .btn_color{
   background-color: #C4DFAA;
 }
